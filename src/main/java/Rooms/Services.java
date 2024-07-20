@@ -14,5 +14,6 @@ public class Services {
     }
     public String getServiceName() {return serviceName;}
     public double getServicePrice() {return servicePrice;}
-    public LocalDate getUsageTime() {return usageTime;}
+    public LocalDate getUsageTime() {
+        return usageTime;}
 }
