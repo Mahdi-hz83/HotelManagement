@@ -9,7 +9,8 @@ public class Room {
     public Room(int roomNumber, String type, double price) {
         this.roomNumber = roomNumber;
         this.type = type;
-        this.price = price;
+        if (price > 0){this.price = price;}
+        else {throw new IllegalArgumentException("Price must be greater than zero");}
         this.isAvailable = true;
     }
 
