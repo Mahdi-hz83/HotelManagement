@@ -31,6 +31,4 @@ public class Booking {
     public void cancelBooking(){
         room.setAvailable(true);
     }
-
-
 }
