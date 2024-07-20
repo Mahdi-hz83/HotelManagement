@@ -1,5 +1,7 @@
 package Rooms;
 
+import Guests.Guest;
+
 import java.time.LocalDate;
 
 public class Booking {
